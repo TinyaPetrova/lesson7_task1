@@ -19,7 +19,7 @@ btn.addEventListener('click', () => {
 // здесь можете создать EventListener для второй кнопки
 
     btn2.addEventListener('click', () => {
-        const paragraph = document.createElent('p')
+        const paragraph = document.createElement('p')
         paragraph.innerText = 'Кнопки и впрямь изменились :)'
         paragraph.id = 'text'
         btn2.style.backgroundColor = btn.style.backgroundColor;
